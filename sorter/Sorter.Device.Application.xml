@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.1.0.0" runtimeid="3.5.18.0" libversion="4.1.0.0" compiler="3.5.18.0" lmm="3.5.18.0" profile="CODESYS V3.5 SP18+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Sorter" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="Sorter_variables">
+        <Node name="I_atEntry" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_atExit" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_auto" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_emergencyStop" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_Manual" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_reset" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_Start" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_Stop" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_TAPP_gripperRotate" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_TAPP_itemDetection" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_TAPP_rotate" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_TAPP_xPosition" type="T_REAL" access="ReadWrite" />
+        <Node name="I_TAPP_zPostition" type="T_REAL" access="ReadWrite" />
+        <Node name="Q_counter" type="T_INT" access="ReadWrite" />
+        <Node name="Q_entryConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_exitConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_resetLight" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_StartLight" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_stopLight" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_grab" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_gripperCCW" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_gripperCW" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_rotateCCW" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_rotateCW" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q_TAPP_xSetpoint" type="T_REAL" access="ReadWrite" />
+        <Node name="Q_TAPP_zSetpoint" type="T_REAL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
